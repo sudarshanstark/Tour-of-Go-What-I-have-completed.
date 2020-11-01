@@ -31,6 +31,6 @@ func main() {
 	v := Vertex{3, 4}
 	f := MyFloat(-math.Sqrt2)
 	a = &v // a *Vertex implements Abser
-	a = f  // MyFloat implements Abser
+	a = f  // a MyFloat implements Abser
 	fmt.Println(a.Abs())
 }
